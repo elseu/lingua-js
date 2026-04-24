@@ -9,15 +9,16 @@
   "files": [
     "browser",
     "node",
-    "lingua.d.ts",
+    "index.d.ts",
     "lingua_bg.wasm.d.ts"
   ],
   "types": "lingua.d.ts",
   "exports": {
-    "import": "./browser/lingua.js",
-    "require": "./node/lingua.js"
+    "import": "./browser/index.js",
+    "require": "./node/index.js",
+    "types": "./index.d.ts"
   },
-  "sideEffects": ["./browser/lingua.js"],
+  "sideEffects": ["./browser/index.js"],
   "keywords": [
     "language-processing",
     "language-detection",

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-const { LanguageDetectorBuilder } = require("../node/lingua");
+const { LanguageDetectorBuilder } = require("../node");
 
 const detectorForEnglishAndGerman = 
   LanguageDetectorBuilder

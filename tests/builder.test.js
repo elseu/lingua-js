@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-const { LanguageDetectorBuilder } = require("../node/lingua");
+const { LanguageDetectorBuilder } = require("../node");
 
 test("build from blacklist does not panic", () => {
   expect(() => LanguageDetectorBuilder.fromAllLanguagesWithout("Turkish", "Romanian")).not.toThrow();
