@@ -12,7 +12,7 @@
     "index.d.ts",
     "lingua_bg.wasm.d.ts"
   ],
-  "types": "lingua.d.ts",
+  "types": "index.d.ts",
   "exports": {
     "import": "./browser/index.js",
     "require": "./node/index.js",
